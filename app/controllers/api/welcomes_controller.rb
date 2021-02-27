@@ -3,7 +3,6 @@ class Api::WelcomesController < ApplicationController
     @random = Random.new.rand(100)
     render "hello.json.jb"
   end
-end
 
   def about
     @javascript = Javascript.new
