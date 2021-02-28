@@ -4,8 +4,8 @@ class Api::WelcomesController < ApplicationController
     render "hello.json.jb"
   end
 
-  def about
-    @javascript = Javascript.new
+  def about_path
+    @javascript = Javascript
     render "about.json.jb"
   end
 end

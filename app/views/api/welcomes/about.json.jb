@@ -1,4 +1,4 @@
 {
-  message: "Hello there!",
+  message: "Hello!",
   javascript: @javascript,
 }
